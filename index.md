@@ -2,6 +2,7 @@
 The WALL-E Emotive Robot uses an ultrasonic sensor to detect its distance from other objects. It uses this distance to determine the expression it displays on its LED board.
 <!--| **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|-->
+
 | Anusha B | Monta Vista High School | Mechanical Engineering | Incoming Sophmore
 
 ![Headstone Image](logo.svg)
