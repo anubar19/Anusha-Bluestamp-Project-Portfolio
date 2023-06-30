@@ -53,19 +53,15 @@ Here's where you'll put your code. The syntax below places it into a block of co
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. -->
 
 | **Part** | **Note** | **Price** | **Link** |
-<!--|:--:|:--:|:--:|:--:|-->
-
+|:--:|:--:|:--:|:--:|
 | Arduino UNO REV3 | Facilitates the project's function | $28.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-<!--|:--:|:--:|:--:|:--:|-->
-
+|:--:|:--:|:--:|:--:|
 |  Adafruit Wave Shield for Arduino | Simplifies the interface of the Arduino. | $22.00| <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-<!--|:--:|:--:|:--:|:--:|-->
-
+|:--:|:--:|:--:|:--:|
 | 16x8 1.2" LED Matrix + Backpack | Acts as the robot's "eyes" and displays its "emotion" | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-<!--|:--:|:--:|:--:|:--:|-->
-
+|:--:|:--:|:--:|:--:|
 | 16x2 LCD Character Display w/ I2C backpack | Displays the robot's greeting and emotions | $9.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-<!--|:--:|:--:|:--:|:--:|-->
+|:--:|:--:|:--:|:--:|
 
 <!--| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
