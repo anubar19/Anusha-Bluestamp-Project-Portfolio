@@ -58,7 +58,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 |  Adafruit Wave Shield for Arduino | Simplifies the interface of the Arduino. | $22.00| <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| 16x8 1.2" LED Matrix + Backpack | Acts as the robot's "eyes" and displays its "emotion" | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 16x8 1.2" LED Matrix + Backpack | Acts as the robot's "eyes" and displays its "emotion" | $28.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | 16x2 LCD Character Display w/ I2C backpack | Displays the robot's greeting and emotions | $9.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
