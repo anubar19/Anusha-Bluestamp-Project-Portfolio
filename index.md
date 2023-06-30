@@ -64,7 +64,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | 16x8 1.2" LED Matrix + Backpack | Acts as the robot's "eyes" and displays its "emotion" | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 <!--|:--:|:--:|:--:|:--:|-->
 
-| 16x2 LCD Character Display w/ I2C backpack | Displays the robot's greeting and emotions | $9.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/Arducam-Display-Controller-Character-Backlight/dp/B019D9TYMI/ref=asc_df_B019D9TYMI/?tag=hyprod-20&linkCode=df0&hvadid=642218272526&hvpos=&hvnetw=g&hvrand=2185160809953157411&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-1074095138049&psc=1&gclid=CjwKCAjw-vmkBhBMEiwAlrMeFwVKKajbhqe-jQ9Gwt88aDPavTwc_jLQRtRpgHSHzMcJQIppSxGNOBoCylMQAvD_BwE)"> Link </a> |
+| 16x2 LCD Character Display w/ I2C backpack | Displays the robot's greeting and emotions | $9.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 <!--|:--:|:--:|:--:|:--:|-->
 
 <!--| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
