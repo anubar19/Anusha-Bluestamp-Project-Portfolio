@@ -3,10 +3,12 @@ The WALL-E Emotive Robot uses an ultrasonic sensor to detect its distance from o
 <!--| **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|-->
 
-| Anusha B | Monta Vista High School | Mechanical Engineering | Incoming Sophmore
+| Anusha B | Monta Vista High School | Mechanical Engineering | Incoming Sophmore |
 
 ![Headstone Image](logo.svg)
   
+<a href="https://www.instructables.com/Emotionally-Responsive-Robot/"> Project Guide </a>
+
 <!--# Final Milestone
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
@@ -18,21 +20,26 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 
+# Second Milestone
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RuqsUkzLOlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# Second Milestone
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 My second milestone was to finish assembling the "body" of the robot. Now that I have all my components in place, I can focus on programming them to work together. So far, I have programmed the ultrasonic sensor and LCD to work together, and for my third milestone, I am going to program the rest of the components, mainly the LED matrices. Getting the program to compile and upload was my biggest challenge, but now I can focus on accomplishing my final milestone.
 
+# First Milestone
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AAFQRoqYj6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# First Milestone
 My first milestone was to finish wiring all my components together and to be able to program the LED matrix so that a design of my choice shows up on it. I used a breadboard to connect my LCD, LED matrices, ultrasonic sensor, and servos to the arduino. My biggest challenge in accomplishing this was not being able to program the LED matrices, however, after replacing my two previous matrices, I was able to upload my code to it. Next, I plan to assemble my 3D printed pieces which form the "body" of the robot. 
+
+# Starter Project
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yNEFJC3x2WI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# Starter Project
 My starter project was the Exploding Star Color Organ, which responds to sound by lighting up various LEDs. This was not my original starter project, but I had to change it because of some soldering mistakes that melted one of the components. Soldering this project went quite smoothly, and I enjoyed learning about the the various components involved in the circuit and their functions.
+
+<a href="https://www.instructables.com/Exploding-Star-Color-Organ/"> Starter Project Guide </a>
 
 <!--**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
 
