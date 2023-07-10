@@ -45,7 +45,7 @@ My starter project was the Exploding Star Color Organ, which responds to sound b
 
 # Schematics
 
-[Schematics](brobot_schematic.png)
+![Schematics](brobot_schematic.png)
 
 In my project, I connected my LED matrix backpack to pins 13 (DIN), 12 (CS), and 11 (CLK). I also used a smaller breadboard in order to condense my circuit to fit it inside the box.
 <!--Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.--> 
