@@ -5,7 +5,7 @@ The WALL-E Emotive Robot uses an ultrasonic sensor to detect its distance from o
 
 | Anusha B | Monta Vista High School | Mechanical Engineering | Incoming Sophmore |
 
-![Headstone Image](logo.svg)
+<!--![Headstone Image](logo.svg)-->
   
 <a href="https://www.instructables.com/Emotionally-Responsive-Robot/"> Project Guide </a>
 
