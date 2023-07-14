@@ -1,5 +1,5 @@
 # WALL-E Emotive Robot
-The WALL-E Emotive Robot uses an ultrasonic sensor to detect its distance from other objects. It uses this distance to determine the expression it displays on its LED board.
+The WALL-E Emotive Robot detects how far it is from another object and displays an "emotion" that corresponds with that distance. It has and ultrasonic sensor which transmits and receives a signal to determine how far the nearest object is. Using that distance, an emotion is selected, for example, if the sensor detects an object that is within 10 centimeters of the robot, it will display anger. There are four main aspects of expressing an emotion: the LED matrices (the eyes), the LCD which says what emotion is being expressed, the two servos for the neck, and the two micro servos that are the robot's eyebrows. Each component is programmed to perform a specific action based on the distance calculated by the ultrasonic sensor. 
 <!--| **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|-->
 
@@ -11,28 +11,26 @@ The WALL-E Emotive Robot uses an ultrasonic sensor to detect its distance from o
 
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QYzmalx_MOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<!--For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE-->
 
-<!--**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
+My final milestone was to finish the programming of the robot. At first, I was trying to upload the code provided in the guide, but I was getting many errors with it and it was not completely compatible with my project because my parts and wiring were slightly different. Due to this, I decided to write my own program rather than trying to alter the given code. 
 
-<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+There were two main parts that I still had to program: the LED matrices, and the servos. I was able to get the LED matrices to work as desired by replacing them again and wiring two single matrices together. I also used a different library than before, called LedControlMS, to program them so that I could display different patterns on each matrix, but only use three pins to connect them to the Arduino. The servos took slightly longer to program. Initially, when I wired the servos and uploaded code, the servos would not respond at all. I then changed the pins the servos were connected to from analog to digital pins, and I was then able to upload code. The servos required an external source of power since the arduino was not powerful enough to power them, so I also connected 4 AA batteries which provided 6 volts for the servos to use.
+
+I did not expect that the programming process would take so long, especially because I did not think I would need to write my own program. Writing my own program gave me more control over the function of my robot, and I was able to gain a deeper understanding of how each component functions.
 
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RuqsUkzLOlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-My second milestone was to finish assembling the "body" of the robot. Now that I have all my components in place, I can focus on programming them to work together. So far, I have programmed the ultrasonic sensor and LCD to work together, and for my third milestone, I am going to program the rest of the components, mainly the LED matrices. Getting the program to compile and upload was my biggest challenge, but now I can focus on accomplishing my final milestone.
+My second milestone was to finish assembling the "body" of the robot. I had to get all the parts 3D printed so that they could fit all the components, like the sensor and the LCD. The box at the bottom is what holds the circuit, and it was not ready for the longest time. The original plan was to use a plastic box and dremel out the the spaces I needed to support the components. However, the plastic was quite flimsy and thin, so when I tried using the dremel to cut it, the plastic slightly melted. Since I would have had to cut out many large pieces, it was best to 3D print the box instead. After switching to the 3D printed box, I realized that it was not big enough to store the entire circuit, so I switched to a smaller breadboard. I then screwed in the LCD and ultrasonic sensor into the box and the two micro servos into the face.
+
+I changed my LED matrices from the previous set of four to two single matrices that I wired together. However, when I made this change, I was unable to upload code to them because they were both cut out of the set of four, which damaged their individual connections. I was able to program the LCD and ultrasonic sensor to work together to display the distance detected by the sensor onto the LCD. I can now focus on my final milestone, which is to program all the components of the robot, like the LED matrices and servos, to work together. 
 
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AAFQRoqYj6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-My first milestone was to finish wiring all my components together and to be able to program the LED matrix so that a design of my choice shows up on it. I used a breadboard to connect my LCD, LED matrices, ultrasonic sensor, and servos to the arduino. My biggest challenge in accomplishing this was not being able to program the LED matrices, however, after replacing my two previous matrices, I was able to upload my code to it. Next, I plan to assemble my 3D printed pieces which form the "body" of the robot. 
+My first milestone was to finish wiring all my components together and to be able to program the LED matrix so that a design of my choice shows up on it. In order to start wiring, I first had to solder resistors, capacitors, integrated circuits, and pin headers to the wave shield, which I placed onto the arduino. Since I have so many components that I need to connect to the Arduino, I used a breadboard facilitate these connections. I also put together the pan-tilt servos and their mounts and attached them to the 3D printed "neck" piece. My biggest challenge in finishing the wiring was connecting and programming the LED matrices. My matrices were different than the ones listed in the guide, so I had to use different pins to connect them to the Arduino. I also had to use a different Arduino library called LedControl to program the LED matrices to display a pattern. My first set of matrices did not respond to any uploaded code, so I had to replace them with a new set, which successfuly responded to code and displayed a programmed pattern. I now want to work towards my second milestone, which is assembling my 3D printed pieces to form the "body" of the robot.
 
 # Starter Project
 
@@ -48,7 +46,7 @@ My starter project was the Exploding Star Color Organ, which responds to sound b
 
 ![Schematics](brobot_schematic.png)
 
-In my project, I connected my LED matrix backpack to pins 13 (DIN), 12 (CS), and 11 (CLK). I also used a smaller breadboard in order to condense my circuit to fit it inside the box.
+In my project, I connected my LED matrix backpack to pins 13 (DIN), 12 (CS), and 11 (CLK). The signal wires of the servos are not connected to the analog pins, instead, they are connected to pins 3, 4, 5, and 6. I also used a smaller breadboard in order to condense my circuit to fit it inside the box.
 <!--Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.--> 
 
 <!--# Code
