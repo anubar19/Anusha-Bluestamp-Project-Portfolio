@@ -44,7 +44,7 @@ My starter project was the Exploding Star Color Organ, which responds to sound b
 
 # Schematics
 
-![Schematics](brobot_schematic.png)
+![Schematics](Files/brobot_schematic.png)
 
 In my project, I connected my LED matrix backpack to pins 13 (DIN), 12 (CS), and 11 (CLK). The signal wires of the servos are not connected to the analog pins, instead, they are connected to pins 3, 4, 5, and 6. I also used a smaller breadboard in order to condense my circuit to fit it inside the box.
 <!--Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.--> 
@@ -61,16 +61,15 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Arduino UNO REV3 | Facilitates the project's function | $28.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-|  Adafruit Wave Shield for Arduino | Simplifies the interface of the Arduino. | $22.00| <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+|  Adafruit Wave Shield for Arduino | Simplifies the interface of the Arduino. | $22.00| <a href="https://www.adafruit.com/product/94"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| 16x8 1.2" LED Matrix + Backpack | Acts as the robot's "eyes" and displays its "emotion" | $28.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 8x8 LED Matrix + Backpack | Acts as the robot's "eyes" and displays its "emotion" | $7.99 | <a href="https://www.amazon.com/Alinan-MAX7219-Matrix-Display-Control/dp/B09TSJL783/ref=asc_df_B09TSJL783/?tag=hyprod-20&linkCode=df0&hvadid=599693037728&hvpos=&hvnetw=g&hvrand=8238989648180540621&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-1923353677832&psc=1/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | 16x2 LCD Character Display w/ I2C backpack | Displays the robot's greeting and emotions | $9.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-
-<!--| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 2 Servo Motors | Pan-tilt servos that act as the robot's neck and head| $14.99 | <a href="https://www.amazon.com/180%C2%B0Metal-Waterproof-Airplane-Helicopter-Mechanical/dp/B09JWK2GB3/ref=asc_df_B09JWK2GB3/?tag=hyprod-20&linkCode=df0&hvadid=598270536205&hvpos=&hvnetw=g&hvrand=11300398354597975709&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-1675722646259&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+<!--| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
