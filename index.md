@@ -5,7 +5,7 @@ The WALL-E Emotive Robot detects how far it is from another object and displays 
 
 | Anusha B | Monta Vista High School | Mechanical Engineering | Incoming Sophmore |
 
-<!--![Headstone Image](logo.svg)-->
+![Headstone Image](Files/Anusha-Project.png)
   
 <a href="https://www.instructables.com/Emotionally-Responsive-Robot/"> Project Guide </a>
 
