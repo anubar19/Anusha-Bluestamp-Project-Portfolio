@@ -12,6 +12,8 @@ The WALL-E Emotive Robot detects how far it is from another object and displays 
 # Modification
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2XDlgbebQs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+My modification was adding buttons to my robot in order to control it manually. I add six buttons of different colors to a breadboard. Each button corresponds to an emotion, and whenever the button is pressed, its corresponding emotion is displayed. I needed to use six pins on my Arduino in order to wire the buttons, so I used four of the analog pins and two of the digital pins to connect the buttons. In my code, I assigned an emotion whenever the button was low.
+
 
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QYzmalx_MOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
