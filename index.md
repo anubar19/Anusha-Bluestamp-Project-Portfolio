@@ -59,12 +59,13 @@ In my project, I connected my LED matrix backpack to pins 13 (DIN), 12 (CS), and
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. -->
 
 | **Part** | **Note** | **Price** | **Link** |
-|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|
 | Arduino UNO REV3 | Facilitates the project's function | $28.50 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |  Adafruit Wave Shield for Arduino | Simplifies the interface of the Arduino. | $22.00| <a href="https://www.adafruit.com/product/94"> Link </a> |
 | 8x8 LED Matrix + Backpack | Acts as the robot's "eyes" and displays its "emotion" | $7.99 | <a href="https://www.amazon.com/Alinan-MAX7219-Matrix-Display-Control/dp/B09TSJL783/ref=asc_df_B09TSJL783/?tag=hyprod-20&linkCode=df0&hvadid=599693037728&hvpos=&hvnetw=g&hvrand=8238989648180540621&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-1923353677832&psc=1/"> Link </a> |
 | 16x2 LCD Character Display w/ I2C backpack | Displays the robot's greeting and emotions | $9.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | 2 Servo Motors | Pan-tilt servos that act as the robot's neck and head| $14.99 | <a href="https://www.amazon.com/180%C2%B0Metal-Waterproof-Airplane-Helicopter-Mechanical/dp/B09JWK2GB3/ref=asc_df_B09JWK2GB3/?tag=hyprod-20&linkCode=df0&hvadid=598270536205&hvpos=&hvnetw=g&hvrand=11300398354597975709&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-1675722646259&th=1"> Link </a> |
+
 <!---| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
@@ -73,7 +74,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|-->
-<!---# Other Resources/Examples
+
+<!--- Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
