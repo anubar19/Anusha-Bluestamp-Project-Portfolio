@@ -12,7 +12,7 @@ The WALL-E Emotive Robot detects how far it is from another object and displays 
 # Modification
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2XDlgbebQs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-My modification was adding buttons to my robot in order to control it manually. I add six buttons of different colors to a breadboard. Each button corresponds to an emotion, and whenever the button is pressed, its corresponding emotion is displayed. I needed to use six pins on my Arduino in order to wire the buttons, so I used four of the analog pins and two of the digital pins to connect the buttons. In my code, I assigned an emotion whenever the button was low.
+My modification was adding buttons to my robot in order to control it manually. I add six buttons of different colors to a breadboard. Each button corresponds to an emotion, and whenever the button is pressed, its corresponding emotion is displayed. I needed to use six pins on my Arduino in order to wire the buttons, so I used four of the analog pins and two of the digital pins to connect the buttons. In my code, I assigned a variable to the state of each button. Whenever the button was pressed, its state was low, so whenever the button state variable was low, it would call the functions to display an emotion.
 
 
 # Final Milestone
@@ -369,20 +369,12 @@ Don't forget to place the link of where to buy each component inside the quotati
 | 8x8 LED Matrix + Backpack | Acts as the robot's "eyes" and displays its "emotion" | $7.99 | <a href="https://www.amazon.com/Alinan-MAX7219-Matrix-Display-Control/dp/B09TSJL783/ref=asc_df_B09TSJL783/?tag=hyprod-20&linkCode=df0&hvadid=599693037728&hvpos=&hvnetw=g&hvrand=8238989648180540621&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-1923353677832&psc=1/"> Link </a> |
 | 16x2 LCD Character Display w/ I2C backpack | Displays the robot's greeting and emotions | $9.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | 2 Servo Motors | Pan-tilt servos that act as the robot's neck and head| $14.99 | <a href="https://www.amazon.com/180%C2%B0Metal-Waterproof-Airplane-Helicopter-Mechanical/dp/B09JWK2GB3/ref=asc_df_B09JWK2GB3/?tag=hyprod-20&linkCode=df0&hvadid=598270536205&hvpos=&hvnetw=g&hvrand=11300398354597975709&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-1675722646259&th=1"> Link </a> |
-
-<!---| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|-->
-
-<!--- Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)-->
+| Servo Mounts | Holds the face brackets that are controlled by the pan-tilt servos | $12.99 | <a href="https://www.amazon.com/Servo-Mount-Bracket-MG996R-Steering/dp/B07PQ12TXS/ref=asc_df_B07PQ12TXS/?tag=hyprod-20&linkCode=df0&hvadid=343191214486&hvpos=&hvnetw=g&hvrand=6717711391194757807&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-737353487171&psc=1&tag=&ref=&adgrpid=64450094290&hvpone=&hvptwo=&hvadid=343191214486&hvpos=&hvnetw=g&hvrand=6717711391194757807&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-737353487171"> Link </a> |
+| 2 Micro Servos | Controls the movement of the eyebrows | $7.29| <a href="https://www.amazon.com/Sipytoph-Helicopter-Airplane-Walking-Control/dp/B09185SC1W?th=1"> Link </a> |
+| HC-SRO4 Ultrasonic sensor | Detects the robot's distance from another object | $4.50 | <a href="https://www.sparkfun.com/products/15569"> Link </a> |
+| 4 AA Battery Holder | Powers the servos| $7.49 | <a href="https://www.amazon.com/LAMPVPATH-Battery-Holder-Switch-Leads/dp/B07L9M6VZK/ref=sr_1_1_sspa?keywords=4+aa+battery+holder&qid=1689792859&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
+| Breadboard | Holds robot's buttons | $8.75| <a href="https://www.amazon.com/BB830-Solderless-Plug-BreadBoard-tie-Points/dp/B0040Z4QN8/ref=asc_df_B0040Z4QN8/?tag=hyprod-20&linkCode=df0&hvadid=312400581241&hvpos=&hvnetw=g&hvrand=16606392188512689734&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-420088669616&psc=1"> Link </a> |
+| Half-Sized Breadboard | Facilitates connections of all the components | $5.99 | <a href="https://digilent.com/shop/half-size-breadboard/?setCurrencyId=1&sku=240-131&utm_source=google&utm_medium=cpc&utm_campaign=19554864174&utm_content=150882922291&utm_term=&gad=1&gclid=Cj0KCQjwk96lBhDHARIsAEKO4xaa3ED8sEutBLbjEh871sHWek4RCCiq7WpuP4eIGOnADPgulKTDijMaAs2cEALw_wcB"> Link </a> |
+| Push Buttons with Caps| Used to control robot's emotions | $6.50 | <a href="https://www.digikey.com/en/products/detail/sparkfun-electronics/COM-10302/5775291?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Product_Low%20ROAS%20Categories&utm_term=&utm_content=&gclid=Cj0KCQjwk96lBhDHARIsAEKO4xZRpqkOY9UzzxE58LD24HE5iyz0SD5z1RjrlX28txLZQxbrm1ZwCtoaAi2ZEALw_wcB"> Link </a> |
 
 <!--To watch the BSE tutorial on how to create a portfolio, click here.-->
