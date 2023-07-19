@@ -52,7 +52,7 @@ In my project, I connected my LED matrix backpack to pins 13 (DIN), 12 (CS), and
 # Code
 
 <!--Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
-```
+```c++
 #include <LiquidCrystal_I2C.h>
 #include <LedControlMS.h>
 #include <Servo.h>
