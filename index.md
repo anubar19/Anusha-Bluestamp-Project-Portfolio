@@ -57,7 +57,6 @@ In my project, I connected my LED matrix backpack to pins 13 (DIN), 12 (CS), and
 
 # Code
 
-<pre style = "wraparound:#fdfdfdj border = none; height = 40 pc">
 ```c++
 #include <LiquidCrystal_I2C.h>
 #include <LedControlMS.h>
@@ -357,7 +356,6 @@ void moveServos(int left, int right, int panIn, int tiltIn)
 
 }
 ```
-	</pre>
 
 # Bill of Materials
 <!--Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
