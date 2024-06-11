@@ -3,7 +3,7 @@ The WALL-E Emotive Robot detects how far it is from another object and displays 
 <!--| **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|-->
 
-| Anusha B | Monta Vista High School | Mechanical Engineering | Incoming Sophmore |
+| Anu B | Monta Vista High School | Mechanical Engineering | Incoming Sophmore |
 
 ![Headstone Image](Files/Anusha-Project.png)
   
