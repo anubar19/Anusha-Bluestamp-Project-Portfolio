@@ -1,3 +1,4 @@
+[Homepage](./index.md)
 # WALL-E Emotive Robot
 The WALL-E Emotive Robot detects how far it is from another object and displays an "emotion" that corresponds with that distance. It has and ultrasonic sensor which transmits and receives a signal to determine how far the nearest object is. Using that distance, an emotion is selected, for example, if the sensor detects an object that is within 10 centimeters of the robot, it will display anger. There are four main aspects of expressing an emotion: the LED matrices (the eyes), the LCD which says what emotion is being expressed, the two servos for the neck, and the two micro servos that are the robot's eyebrows. Each component is programmed to perform a specific action based on the distance calculated by the ultrasonic sensor. 
 <!--| **Engineer** | **School** | **Area of Interest** | **Grade** |
