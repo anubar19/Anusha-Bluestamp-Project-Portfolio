@@ -379,3 +379,5 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Male to Female Jumper Wires| Connects components | $2.99 | <a href="https://www.gobilda.com/male-to-female-jumper-wire-multicolor-10cm-length-40-pack/?gclid=CjwKCAjwtuOlBhBREiwA7agf1ndxvQsFRX1XOCnEnoBYTUMTmP7cnIFctx1ge1UfRLZsSqIiLMeS2RoCV8EQAvD_BwE"> Link </a> |
 
 <!--To watch the BSE tutorial on how to create a portfolio, click here.-->
+[Project 1](./project1.md)
+[Project 2](./project2.md)
