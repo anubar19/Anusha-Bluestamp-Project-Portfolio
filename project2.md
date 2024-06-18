@@ -42,9 +42,9 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
-<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g3mT7fR1rYY?si=DX0YXWGzsUZFmJ7D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 My project is an ASL Robotic Arm. The end goal is for it to use image detection to identify written letters and form the ASL representation of it. For the first milestone, I set up my Raspberry Pi, connected the hand, and programmed it. The hand is made up of 5 servos which control the fingers. In order to get the hand to form letters in ASL, I had to individually program each finger. Each finger moves to a position determined by the angle that the servo rotated.Since there is limited mobility for the hand, it is incapable of forming all 26 letters, but it was able to spell "blue". I faced a few challenges in completing this milestone. First, I was finding it difficult to set up my Raspberry Pi, so I had to go over documentation and various resources to get it functioning. Additionally, I had trouble compiling my code because my Python libraries were not located in the correct directories. Afterwards, I had to plug in the Pi to an external power source in order to power the servos. My next steps include working on my second milestone, which is getting the letter detection aspect working, and I want to add a couple servos to the bottom of the hand to give it more mobility so that it can form more than just 12 letters.
 
