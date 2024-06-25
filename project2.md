@@ -50,6 +50,7 @@ My project is an ASL Robotic Arm. The end goal is for it to use image detection 
 
 ## Servo Hat
 ![Headstone Image](Files/Servo_Hat_Image.png)
+The Servo Hat is what allows me to connect so many servos to my Raspberry Pi at once. It connects to the Pi through the GPIO pins and sits on top. On the other side of the Servo Hat, there are pins that make room for up to 16 servos. Each servo takes up 3 pins for ground, power, and signal. By connecting the servos through this method, I can program them using the Adafruit ServoKit library, which lets me set each servo to a specified degree.
 
 ## Code
 
