@@ -54,7 +54,8 @@ My project is an ASL Robotic Arm. The end goal is for it to use image detection 
 The Servo Hat is what allows me to connect so many servos to my Raspberry Pi at once. It connects to the Pi through the GPIO pins and sits on top. On the other side of the Servo Hat, there are pins that make room for up to 16 servos. Each servo takes up 3 pins for ground, power, and signal. By connecting the servos through this method, I can program them using the Adafruit ServoKit library, which lets me set each servo to a specified degree.
 
 ## Code
-'''python
+'''
+
 from time import *
 from adafruit_servokit import ServoKit
 print(1)
@@ -103,6 +104,7 @@ kit.servo[3].angle = 0
 kit.servo[4].angle = 0
 
 sleep(3)
+
 '''
 
 <!--- For your first milestone, describe what your project is and how you plan to build it. You can include:
