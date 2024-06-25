@@ -48,6 +48,12 @@ For your second milestone, explain what you've worked on since your previous mil
 
 My project is an ASL Robotic Arm. The end goal is for it to use image detection to identify written letters and form the ASL representation of it. For the first milestone, I set up my Raspberry Pi, connected the hand, and programmed it. The hand is made up of 5 servos which control the fingers. In order to get the hand to form letters in ASL, I had to individually program each finger. Each finger moves to a position determined by the angle that the servo rotated.Since there is limited mobility for the hand, it is incapable of forming all 26 letters, but it was able to spell "blue". I faced a few challenges in completing this milestone. First, I was finding it difficult to set up my Raspberry Pi, so I had to go over documentation and various resources to get it functioning. Additionally, I had trouble compiling my code because my Python libraries were not located in the correct directories. Afterwards, I had to plug in the Pi to an external power source in order to power the servos. My next steps include working on my second milestone, which is getting the letter detection aspect working, and I want to add a couple servos to the bottom of the hand to give it more mobility so that it can form more than just 12 letters.
 
+## Servo Hat
+
+
+## Code
+
+
 <!--- For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
