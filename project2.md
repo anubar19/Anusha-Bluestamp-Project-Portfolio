@@ -51,6 +51,15 @@ The image above is a representation of how the software aspect of my project wor
 
 In my first milestone, I programmed the robotic hand to form 4 letters, but there was no input that it needed to respond to. For my next milestone, I am going to get the hand to form letters in response to the Pi detecting them, and I am going to write more functions so that the hand can form as many letters as possible.
 
+## Examples
+
+![Headstone Image](Files/SERVO.png)
+
+![Headstone Image](Files/Raspberry.png)
+
+![Headstone Image](Files/FrAMe.png)
+
+
 ## Code
 ```python
 # SPDX-FileCopyrightText: 2021 Limor Fried/ladyada for Adafruit Industries
