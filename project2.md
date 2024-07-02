@@ -32,17 +32,25 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jk74IgKE5pA?si=5Ikt3A3PYuS-8cEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For my second milestone, I got the text recognition functioning. I did this by using TensorFlow along with EasyOCR. OCR stands for Optical Character Recognition, which is responsible for identifying letters, numbers, special characters, as well as full words. I initially tried using OpenCV to perform text recognition, but I was running into many errors when trying to turn on my camera with the necessary Picamera library. After I made the switch to TensorFlow, it started working immediately. 
+For my second milestone, I was able to get the Raspberry Pi to recognize letters. I did this by using TensorFlow along with EasyOCR. OCR stands for Optical Character Recognition, which is responsible for identifying letters, numbers, special characters, as well as full words. I initially tried using OpenCV to perform text recognition, but I was running into many errors when trying to turn on my camera with the necessary Picamera library. The difference between OpenCV and EasyOCR is that OpenCV is a library that is used for computer vision and object detection, whereas EasyOCR is used specifically for extracting text from an image. After I made the switch to TensorFlow, it started working immediately.
 
-The video feed displaying the camera's input is currently very slow at about 0.3 FPS. This is because the text recognition process takes a heavy toll on the Raspberry Pi, making it difficult to process the frames from the camera while simultaneously displaying video at a high framerate. I made many attempts to speed up the video feed. I tried to set the framerate in code, speed up image processing by checking every 10 frames instead of checking every single frame, and trigger the text recognition process using keyboard input. However, none of these attempts sped up the video display. I do want to try finding more potential solutions for this later on. 
+The video feed displaying the camera’s input is currently very slow at about 0.3 FPS. This is because the text recognition process takes a heavy toll on the Raspberry Pi, making it difficult to process the frames from the camera while simultaneously displaying video at a high framerate. I made many attempts to speed up the video feed. I tried to set the framerate in code, speed up image processing by checking every 10 frames instead of checking every single frame, and trigger the text recognition process using keyboard input. However, none of these attempts sped up the video display. I do want to try finding more potential solutions for this later on.
 
-I am now going to focus on completing my third milestone which is to get my robotic hand to respond to the video input by signing the letter detected by the Pi. I have already gotten the hand working as my First Milestone, so I need to write a new file with code that handles text recognition as well as the servo positions for the hand. 
+I am now going to focus on completing my third milestone which is to get my robotic hand to respond to the video input by signing the letter detected by the Pi. I have already gotten the hand working as my First Milestone, so I need to write a new file with code that handles text recognition as well as the servo positions for the hand.
 
 <!-- For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone -->
+
+## Flowchart
+![Headstone Image](Files/ProjectProcessFlowchart.png)
+
+The image above is a representation of how the software aspect of my project works. As part of my second milestone, I needed to establish an input/output system. The input is the camera’s video feed which the Raspberry Pi processes frame-by-frame using EasyOCR. In order to accomplish this milestone, I made the output a simple print statement displaying, “Cam detected,” when the Pi detected the word “Cam” in the video frame. For the final product, the output would be the robotic hand signing a letter.
+
+In my first milestone, I programmed the robotic hand to form 4 letters, but there was no input that it needed to respond to. For my next milestone, I am going to get the hand to form letters in response to the Pi detecting them, and I am going to write more functions so that the hand can form as many letters as possible.
+
 ## Code
 ```python
 # SPDX-FileCopyrightText: 2021 Limor Fried/ladyada for Adafruit Industries
