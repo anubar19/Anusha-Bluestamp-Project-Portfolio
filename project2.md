@@ -53,9 +53,7 @@ In my first milestone, I programmed the robotic hand to form 4 letters, but ther
 
 ## Examples
 <!--[SERVO](Files/SERVO.png) ![Raspberry](Files/Raspberry.png) ![FrAMe](Files/FrAMe.png) -->
-<img src="Files/SERVO.png" width="400" height="300">
-<img src="Files/Raspberry.png" width="400" height="300">
-<img src="Files/FrAMe.png" width="400" height="300">
+<img src="Files/SERVO.png" width="400" height="300"> <img src="Files/Raspberry.png" width="400" height="300"> <img src="Files/FrAMe.png" width="400" height="300">
 
 ## Code
 ```python
