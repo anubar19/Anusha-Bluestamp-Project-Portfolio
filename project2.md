@@ -53,11 +53,11 @@ In my first milestone, I programmed the robotic hand to form 4 letters, but ther
 
 ## Examples
 
-![Headstone Image](Files/SERVO.png)
+![Headstone Image](Files/SERVO.heic)
 
-![Headstone Image](Files/Raspberry.png)
+![Headstone Image](Files/Raspberry.heic)
 
-![Headstone Image](Files/FrAMe.png)
+![Headstone Image](Files/FrAMe.heic)
 
 
 ## Code
