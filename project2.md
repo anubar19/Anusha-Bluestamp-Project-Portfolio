@@ -56,7 +56,8 @@ while not capture_manager.stopped:
         label, name, conf = p
         if conf > CONFIDENCE_THRESHOLD:
             # Handle detected text
-            print("Detected", name)```
+            print("Detected", name)
+```
 
 The video feed displaying the camera’s input is currently very slow at about 0.3 frames per second (FPS). The  text recognition process is computationally expensive, taking  a heavy toll on the Raspberry Pi. The computation makes  it difficult to simultaneously process the frames from the camera and  display video at a high framerate. I made many attempts to speed up the video feed. I tried to set the framerate in code, reduce the load on the Pi by processing every 10 frames instead of checking every single frame, and also trigger the text recognition process using keyboard input. However, none of these attempts sped up the video display. I hope to find potential solutions for this later.
 Now I will focus on completing my third milestone:  making my robotic hand responsive to  video input by signing the letter detected by the Pi. Specifically I will build upon my first milestone , by writing  a new file with code that handles text recognition as well as the servo positions for the hand.
