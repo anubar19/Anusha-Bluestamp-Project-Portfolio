@@ -52,7 +52,7 @@ The image above is a representation of how the software aspect of my project wor
 In my first milestone, I programmed the robotic hand to form 4 letters, but there was no input that it needed to respond to. For my next milestone, I am going to get the hand to form letters in response to the Pi detecting them, and I am going to write more functions so that the hand can form as many letters as possible.
 
 ## Examples
-![SERVO](Files/SERVO.png =600x800) ![Raspberry](Files/Raspberry.png =600x800) ![FrAMe](Files/FrAMe.png =600x800)
+![SERVO](Files/SERVO.png) ![Raspberry](Files/Raspberry.png) ![FrAMe](Files/FrAMe.png)
 
 ## Code
 ```python
