@@ -82,6 +82,10 @@ In my first milestone, I programmed the robotic hand to form 4 letters, but ther
 <!--[SERVO](Files/SERVO.png) ![Raspberry](Files/Raspberry.png) ![FrAMe](Files/FrAMe.png) -->
 <img src="Files/SERVO.png" width="200" height="150"> <img src="Files/Raspberry.png" width="200" height="150"> <img src="Files/FrAMe.png" width="200" height="150">
 
+## EasyOCR Framework
+
+EasyOCR utilizes ResNet, a neural network architecture used for computer vision that uses multiple layers to reduce error rates. Due to these multiple layers, the vanishing gradient problem arises, which occurs when the input signal is lost as it travels through the functions at each layer. To combat this, ResNet connects the layers using skip connections. The input is passed through each layer with residual output, but without the input to the previous layer.
+
 ## Code
 ```python
 # SPDX-FileCopyrightText: 2021 Limor Fried/ladyada for Adafruit Industries
