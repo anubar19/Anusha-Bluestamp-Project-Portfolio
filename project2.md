@@ -72,7 +72,7 @@ Now I will focus on completing my third milestone: making my robotic hand respon
 
 ## Flowchart
 ![Headstone Image](Files/ProjectProcessFlowchart.png)
-Figure 1
+*Figure 1*
 
 Figure 1 visualizes a representation of how the software  of my project works. As part of my second milestone, I established an input/output system. The input is the camera’s video feed which the Raspberry Pi processes frame-by-frame using EasyOCR. The output is a simple print statement displaying, “Cam detected,” when the Pi detected the word “Cam” in the video frame. For the final product, the output would be the robotic hand signing a letter.
 
