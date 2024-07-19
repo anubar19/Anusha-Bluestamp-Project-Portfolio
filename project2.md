@@ -383,17 +383,18 @@ void loop() {
 
 }
 ```
-
+-->
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
+<!-- Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
+Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. -->
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| CanaKit Raspberry Pi 4 Starter Kit | Controls the project's function | $119.95 | <a href="https://www.canakit.com/raspberry-pi-4-starter-kit.html"> Link </a> |
+| Robot Hand Five Fingers Solely Movement Bionic Robot Mechanical Arm DIY, Right Hand | Signs the output | $99.99 | <a href="https://www.amazon.com/Fingers-Movement-Bionic-Mechanical-DIY%EF%BC%88Left/dp/B081RR4224/ref=sr_1_2?crid=1LTQ7UJCV9BH1&dib=eyJ2IjoiMSJ9.ls3FzowOE3PxUlYDTzx4xqQApohy_bBRjU3FpFeQiVJH5BADbk3fG6r2QvbwWGtxGgqGgtoauGMKVdAMIEF0xPARW9Aa6QTIDWcwmH-fDzJ1QN0LQe1m4JjD_m1SdBZRet3K3W8dsRdl-R5SK1LXZAa3e5ypwGbvX_vUL01YVWS248wX0qJGEKB1OwL-OYBoNHJ5D0q8pd9FmjmT8Gbn7wns_t63jUJtZJivG-3C6lrTDTDqMQ0ntRxSOPUxjoE5qTKI9Y4HYHJQlHrG1e8yV4Muu6lmFmG0nUlWe9Ya3ew.HCDnGLLpCt8mLRFJZC5V5RT1idvt13Ne2UBNTGo7yoc&dib_tag=se&keywords=servo%2BRobotic%2BHand&qid=1721415845&sprefix=servo%2Brobotic%2Bhand%2Caps%2C134&sr=8-2&th=1"> Link </a> |
+| Adafruit 16-Channel PWM / Servo HAT for Raspberry Pi - Mini Kit | Allows hand's servos to be controlled by Raspberry Pi | $17.50 | <a href="https://www.adafruit.com/product/2327"> Link </a> |
 
+<!--
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
