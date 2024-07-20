@@ -14,18 +14,25 @@ The ASL Robotic Arm uses image detection to recognize certain letters and displa
 
 ![Headstone Image](Files/Anusha_B.png)
   
-<!--- # Final Milestone
+ # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<!--**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O7hauhR8GNw?si=lLpQNig1z2B_52fj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE -->
+For my final milestone, I combined my machine learning optical character recognition with my robot hand control for my final ASL Robot! The camera captures an image from the live video feed when any key on the keyboard is pressed. Then, that image is stored and the OCR model makes a prediction using the image. In my code, the detected text is gone through character-by-character, and the corresponding method is called to set the hand in the formation of the letter. 
 
+Figure 1 shows the new flow of the software of my project. Instead of reading from a live feed, an image is captured through keyboard input. This image is read by the OCR model. By using this process instead of the old one, the video feed and text recognition are much faster.
+
+
+The specific ML model I used was Keras OCR, source code here: https://github.com/faustomorales/keras-ocr?tab=readme-ov-file. There are two stages in the text recognition process: looking for text in the image and identifying the text. Keras OCR is dependent on the CRAFT model, shown in Figure 2, to look for text characters in an image and the CRNN model, shown in Figure 3, to identify what each character is. 
+
+While working on this milestone, I faced many challenges. After the second milestone, I wanted to create a faster video feed, especially because it slowed down after combining it with the hand’s code. I needed to use the Picamera2 library, which is the most compatible with my Raspberry Pi. I later found out that because I installed so many libraries to the base environment, the Picamera2 library was not able to function properly, so when I started over with a new SD card and a new Pi, I was very careful about creating virtual environments and installing libraries.
+
+
+Figure 4 displays the recognize() method from the keras-ocr API. This method is what performs the text recognition. To optimize for efficient text recognition,  the text needs to take up as much of the frame as possible, and the image needs to be scaled to a smaller size for speed. To ensure this, I held up the paper with text very close to the camera, and resized the captured image to 20% of its original size in my code before passing it to the recognize() method. I tried to scale the image to 10% and 15% to make it faster, but that resulted in the accuracy of the text-recognition being compromised.
+
+Figure 5 displays the documentation and an example of the capture_array() method. This is the function from the Picamera2 library that is responsible for taking a picture from the live video feed. As shown above, the array returned by the method can be stored as a variable. By storing the array as a variable, I am able to place it in an array of images and extract it when I resize it.
 
 
 # Second Milestone
