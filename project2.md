@@ -33,25 +33,27 @@ Figure 1 shows the new flow of the software of my project. Instead of reading fr
 # OCR Model
 
 ![Headstone Image](Files/CRAFTmodel.png)
-*Figure 2*
+*Figure 2: Above is an image of the CRAFT model from Researchgate which is used to look for text in an image. See code example: https://github.com/clovaai/CRAFT-pytorch*
 
 ![Headstone Image](Files/CRNNmodel.png)
-*Figure 3*
+*Figure 3: Above is an image of the CRNN model from The AI Learner which is used to identify text characters. See code example: https://github.com/janzd/CRNN*
 
 The specific ML model I used was Keras OCR, source code here: https://github.com/faustomorales/keras-ocr?tab=readme-ov-file. There are two stages in the text recognition process: looking for text in the image and identifying the text. Keras OCR is dependent on the CRAFT model, shown in Figure 2, to look for text characters in an image and the CRNN model, shown in Figure 3, to identify what each character is. 
 
 ## Important Methods
 
 ![Headstone Image](Files/Recognize.png)
-*Figure 4*
+*Figure 4: Above is an image from the Keras OCR API showing the recognize() method. This method exists in a Pipeline object from Keras OCR*
 
 Figure 4 displays the recognize() method from the keras-ocr API. This method is what performs the text recognition. To optimize for efficient text recognition,  the text needs to take up as much of the frame as possible, and the image needs to be scaled to a smaller size for speed. To ensure this, I held up the paper with text very close to the camera, and resized the captured image to 20% of its original size in my code before passing it to the recognize() method. I tried to scale the image to 10% and 15% to make it faster, but that resulted in the accuracy of the text-recognition being compromised.
 
 ![Headstone Image](Files/CaptureArray.png)
-*Figure 5*
+*Figure 5: Above is an image from the Picaera2 library documentation showing the capture_array method*
 
 Figure 5 displays the documentation and an example of the capture_array() method. This is the function from the Picamera2 library that is responsible for taking a picture from the live video feed. As shown above, the array returned by the method can be stored as a variable. By storing the array as a variable, I am able to place it in an array of images and extract it when I resize it.
 
+![Headstone Image](Files/CaseCAD.png)
+*Figure 6: Above is an image of the CAD for the case I made for my project.*
 
 # Second Milestone
 
