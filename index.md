@@ -4,7 +4,10 @@
 
 [![Project 1](Files/EmotiveBot.png)](./project1.md)
 
+[Project 1](./project1.md)
+
 [![Project 2](Files/ASLBotFinal.png)](./project2.md)
+[Project 2](./project2.md)
 <!--| **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|-->
 
