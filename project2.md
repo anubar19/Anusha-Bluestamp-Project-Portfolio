@@ -52,6 +52,7 @@ Figure 4 displays the recognize() method from the keras-ocr API. This method is 
 
 Figure 5 displays the documentation and an example of the capture_array() method. This is the function from the Picamera2 library that is responsible for taking a picture from the live video feed. As shown above, the array returned by the method can be stored as a variable. By storing the array as a variable, I am able to place it in an array of images and extract it when I resize it.
 
+## Case CAD
 ![Headstone Image](Files/CaseCAD.png)
 *Figure 6: Above is an image of the CAD for the case I made for my project.*
 
