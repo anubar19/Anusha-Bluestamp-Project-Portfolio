@@ -13,8 +13,12 @@ The ASL Robotic Arm uses image detection to recognize certain letters and displa
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** -->
 
 <img src="Files/FinalHeadshot.png" width="1218" height="958">
-  
- # Final Milestone
+
+# Demo Night
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/leiJ5s-gqag?si=oH25e3IacjwMTYMn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+# Final Milestone
 
 <!--**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
 
