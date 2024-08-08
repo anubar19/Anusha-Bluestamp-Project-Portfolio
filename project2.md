@@ -34,7 +34,7 @@ While working on this milestone, I faced many challenges. After the second miles
 
 Figure 1 shows the new flow of the software of my project. Instead of reading from a live feed, an image is captured through keyboard input. This image is read by the OCR model. By using this process instead of the old one, the video feed and text recognition are much faster.
 
-# OCR Model
+## OCR Model
 
 ![Headstone Image](Files/CRAFTmodel.png)
 *Figure 2: Above is an image of the CRAFT model from Researchgate which is used to look for text in an image. See code example: https://github.com/clovaai/CRAFT-pytorch*
